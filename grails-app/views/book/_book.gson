@@ -1,0 +1,15 @@
+import br.com.murilocb.Book
+
+model {
+    Book book
+}
+
+json {
+    id book.id
+    title book.title
+    author book.author
+    publishedYear book.publishedYear
+    price book.price
+    dateCreated book.dateCreated
+    lastUpdated book.lastUpdated
+}
